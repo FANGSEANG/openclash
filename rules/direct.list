@@ -1,0 +1,391 @@
+# 直连补充列表
+# Generated from rule/Custom_Direct.list
+# REPO: https://github.com/Aethersailor/Custom_OpenClash_Rules
+# SOURCE: https://github.com/Aethersailor/Custom_OpenClash_Rules/blob/main/rule/Custom_Direct.list
+
+# NAME: Custom_Direct
+# AUTHOR: Aethersailor
+# REPO: https://github.com/Aethersailor/Custom_OpenClash_Rules
+# 强制直连域名列表，来自个人收集
+
+# 域名后缀匹配
+
+# ImmortalWrt 相关
+DOMAIN-SUFFIX,immortalwrt.org
+DOMAIN-SUFFIX,kyarucloud.moe
+# Tailscale
+DOMAIN-SUFFIX,tailscale.com
+SRC-PORT,41641
+# Cloudflare Tunnel
+DOMAIN-SUFFIX,argotunnel.com
+IP-CIDR,198.41.192.0/24,no-resolve
+IP-CIDR,198.41.200.0/24,no-resolve
+DST-PORT,7844
+# GitHub 反代 CDN
+DOMAIN-SUFFIX,gh-proxy.com
+DOMAIN-SUFFIX,gh.con.sh
+DOMAIN-SUFFIX,gh.ddlc.top
+DOMAIN-SUFFIX,gh.llkk.cc
+DOMAIN-SUFFIX,ghfast.top
+DOMAIN-SUFFIX,ghp.ci
+DOMAIN-SUFFIX,ghproxy.cc
+DOMAIN-SUFFIX,ghproxy.cfd
+DOMAIN-SUFFIX,ghps.cc
+DOMAIN-SUFFIX,git.886.be
+DOMAIN-SUFFIX,github.abskoop.workers.dev
+DOMAIN-SUFFIX,github.boki.moe
+DOMAIN-SUFFIX,github.moeyy.xyz
+DOMAIN-SUFFIX,github.site
+DOMAIN-SUFFIX,github.store
+DOMAIN-SUFFIX,hub.gitmirror.com
+DOMAIN-SUFFIX,jsdelivr.com
+DOMAIN-SUFFIX,jsdelivr.net
+DOMAIN-SUFFIX,kgithub.com
+# Docker 反代 CDN
+DOMAIN-SUFFIX,docker.1panel.live
+DOMAIN-SUFFIX,docker.kejilion.pro
+DOMAIN-SUFFIX,docker.unsee.tech
+DOMAIN-SUFFIX,dockerpull.pw
+DOMAIN-SUFFIX,dockerpull.org
+DOMAIN-SUFFIX,dhub.kubesre.xyz
+DOMAIN-SUFFIX,hub.crdz.gq
+DOMAIN-SUFFIX,hub.rat.dev
+DOMAIN-SUFFIX,hub.xdark.top
+DOMAIN-SUFFIX,registry.dockermirror.com
+# Hugging Face 镜像
+DOMAIN-SUFFIX,hf-mirror.com
+# DDNS
+DOMAIN-KEYWORD,synology
+DOMAIN-KEYWORD,quickconnect
+DOMAIN-SUFFIX,checkip.dyndns.org
+DOMAIN-SUFFIX,checkipv6.dyndns.org
+DOMAIN-SUFFIX,ifconfig.co
+DOMAIN-SUFFIX,api.myip.com
+DOMAIN-SUFFIX,giveup.top
+# DOMAIN-SUFFIX,ip-api.com 会影响某些 DNS 泄露检测网站的结果，暂时屏蔽
+DOMAIN-SUFFIX,ipapi.co
+DOMAIN-SUFFIX,ip6.seeip.org
+DOMAIN-SUFFIX,kit327.com
+DOMAIN-SUFFIX,members.3322.org
+# Windows 网络连接探测
+DOMAIN-SUFFIX,msftconnecttest.com
+DOMAIN-SUFFIX,msftncsi.com
+# Kaspersky
+DOMAIN-SUFFIX,kaspersky.com
+DOMAIN-SUFFIX,kaspersky-labs.com
+# Akamai CDN
+DOMAIN-SUFFIX,akamaihd.net
+DOMAIN-SUFFIX,akamaized.net
+# FinalShell
+IP-CIDR,5.5.5.5/32,no-resolve
+# UniGetUI
+DOMAIN-SUFFIX,powershellgallery.com
+# NTP Pool Project
+DOMAIN-SUFFIX,pool.ntp.org
+# Dell
+DOMAIN-SUFFIX,dell.com
+# MicroSoft Rewards
+DOMAIN-SUFFIX,rewards.bing.com
+
+# FLiNG Trainer
+DOMAIN-SUFFIX,flingtrainer.com
+
+# 媒体类规则
+# Emby 小雅 相关
+DOMAIN-SUFFIX,ddsrem.com
+#DOMAIN-SUFFIX,ipinfo.io
+DOMAIN-SUFFIX,ggbond.org
+DOMAIN-SUFFIX,nn.ci
+DOMAIN-SUFFIX,wwwh.eu.org
+DOMAIN-SUFFIX,1996999.xyz
+# Emby 直连
+# 守候网络
+DOMAIN-SUFFIX,server2.cn2gias.uk
+# MeFun
+IP-CIDR,218.78.7.16/32,no-resolve
+IP-CIDR,98.126.27.164/32,no-resolve
+# MeFun VIP Porn 资源
+DOMAIN-SUFFIX,sptv.ii00.cc
+# MeFun VIP General 资源
+DOMAIN-SUFFIX,sgtv.ii00.cc
+# MeFun VIP Music 资源
+DOMAIN-SUFFIX,cn-music.mefun.vip
+# IPTV 相关
+DOMAIN-SUFFIX,112114.xyz
+DOMAIN-SUFFIX,epg.v1.mk
+DOMAIN-SUFFIX,epg.aptv.app
+DOMAIN-SUFFIX,gdcucc.v1.mk
+# Bangumi番组计划
+DOMAIN-SUFFIX,bgm.tv
+DOMAIN-SUFFIX,chii.in
+DOMAIN-SUFFIX,bangumi.tv
+# 肥羊 All in One
+DOMAIN-SUFFIX,freetv.top
+# Younoplus
+DOMAIN-SUFFIX,plusjp1.younoyes.com
+DOMAIN-SUFFIX,plusde1.younoyes.com
+DOMAIN-SUFFIX,plusus1.younoyes.com
+DOMAIN-SUFFIX,plusus2.younoyes.com
+DOMAIN-SUFFIX,plusus3.younoyes.com
+DOMAIN-SUFFIX,plushk1.younoyes.com
+DOMAIN-SUFFIX,plushk2.younoyes.com
+DOMAIN-SUFFIX,plushk3.younoyes.com
+# 视频网站 / add by Telegram user: jiro / Date:2025-07-22 12:04:55
+DOMAIN-SUFFIX,dushe1.app
+# Mursor IPTV 直播源
+DOMAIN-SUFFIX,ottiptv.cc
+
+# 游戏类规则
+# 红警重聚 Reunion 2023
+IP-CIDR,108.174.48.100/32,no-resolve
+# 雀魂麻将
+DOMAIN-SUFFIX,game.maj-soul.com
+# hoyoverse.com
+DOMAIN-SUFFIX,apm-log-upload-os.hoyoverse.com
+DOMAIN-SUFFIX,sdk-log-upload-os.hoyoverse.com
+DOMAIN-SUFFIX,zzz-log-upload-os.hoyoverse.com
+DOMAIN-SUFFIX,minor-api-os.hoyoverse.com
+
+
+# 软件类规则
+# 软件及服务 / add by Telegram user: rl / Date: 2025-08-14 09:47:11
+DOMAIN-SUFFIX,adobe.com
+
+# 下载类
+# 馒头
+DOMAIN-KEYWORD,m-team
+DOMAIN-SUFFIX,m-team.cc
+DOMAIN-SUFFIX,m-team.io
+DOMAIN-SUFFIX,manfuz.co
+
+
+# 金融类
+# 汇丰香港，走代理会被风控 / add by Telegram user: victory / Date: 2025-09-20 08:35:06
+DOMAIN-SUFFIX,hsbc.com.hk
+DOMAIN-SUFFIX,vv1865.com
+# 汇丰银行
+DOMAIN-SUFFIX,liveperson.net
+DOMAIN-SUFFIX,we-stats.com
+# 中国银行香港，如果走代理，会被风控 / add by Telegram user: victory / Date: 2025-09-20 08:33:44
+DOMAIN-SUFFIX,bochk.com
+# 泰国开泰银行，如果走代理，会被风控
+DOMAIN-SUFFIX,kasikornbank.com
+# 香港渣打银行
+DOMAIN-SUFFIX,sc.com
+
+# 其他
+# Server酱
+DOMAIN-SUFFIX,sct.ftqq.com
+# 爱普生打印机
+DOMAIN-SUFFIX,p01.epsonconnect.com
+
+# 机器人添加域名
+# 以下域名由用户通过机器人添加，无备案且 NS 不属于中国大陆，或解析结果不属于中国大陆
+
+# add by Telegram user: Aethersailor / Date: 2025-07-27 02:03:58
+DOMAIN-SUFFIX,afuns.me
+# sanligu home lab / add by Telegram user: sanligu / Date: 2025-07-29 15:50:35
+DOMAIN-SUFFIX,sanligu.top
+# 华盛通 / add by Telegram user: 真怪誕呀 / Date: 2025-08-01 15:12:21
+DOMAIN-SUFFIX,vbkr.com
+# add by Telegram user: r / Date: 2025-08-14 00:22:00
+DOMAIN-SUFFIX,xn--4kq62z5rby2qupq9ub.top
+# xiaomi.com / add by Telegram user: r / Date: 2025-08-21 18:58:58
+DOMAIN-SUFFIX,ok321.top
+# 影视站 / add by Telegram user: Feng Ninger / Date: 2025-08-11 11:55:42
+DOMAIN-SUFFIX,wlcdn88.com
+# 蓝宝石显卡官网 / add by Telegram user: 💡💡 / Date: 2025-08-07 06:58:20
+DOMAIN-SUFFIX,sapphiretech.com
+# 牛逼云无需富强官网 / add by Telegram user: 真怪誕呀 / Date: 2025-08-23 17:18:18
+DOMAIN-SUFFIX,idsduf.com
+# 精准定位 / add by Telegram user: 真怪誕呀 / Date: 2025-08-01 01:47:12
+DOMAIN-SUFFIX,webs.vc
+# 视频网站 / add by Telegram user: sanligu / Date: 2025-08-03 10:15:19
+DOMAIN-SUFFIX,657192.com
+# BLOG / add by Telegram user: rl / Date: 2025-08-26 20:20:13
+DOMAIN-SUFFIX,chenyuxia.com
+# 我的世界服务器 / add by Telegram user: 💡💡 / Date: 2025-09-12 12:44:33
+DOMAIN-SUFFIX,zctnet.top
+# x86Pi / add by Telegram user: Aethersailor / Date: 2025-09-08 12:03:12
+DOMAIN-SUFFIX,x86pi.com
+# pt站劳教所 / add by Telegram user: kevin / Date: 2025-09-22 14:36:31
+DOMAIN-SUFFIX,ptl.gs
+# pt站劳教所 / add by Telegram user: kevin / Date: 2025-09-22 14:35:53
+DOMAIN-SUFFIX,ptlgs.org
+# NHK官网 / add by Telegram user: 雪菜 / Date: 2025-09-21 22:03:09
+DOMAIN-SUFFIX,nhk.or.jp
+# add by Telegram user: y / Date: 2025-10-18 22:22:04
+DOMAIN-SUFFIX,tozi-cn.top
+# girigirilove在线追番网站 / add by Telegram user: 真怪誕呀 / Date: 2025-08-23 17:26:28
+DOMAIN-SUFFIX,girigirilove.com
+# 金融数据 / add by Telegram user: ai / Date: 2025-11-26 14:33:09
+DOMAIN-SUFFIX,topwd.top
+# 视频 / add by Telegram user: siri / Date: 2025-11-23 13:05:05
+DOMAIN-SUFFIX,qmeng.top
+# add by Telegram user: Aethersailor / Date: 2025-12-05 14:30:18
+DOMAIN-SUFFIX,xkkapk.com
+# 个人导航网站及游戏站点 / add by Telegram user: Char / Date: 2025-10-28 00:00:59
+DOMAIN-SUFFIX,cheshire.top
+# Server酱³ · 极简推送服务 / add by Telegram user: 雪菜 / Date: 2025-10-20 18:34:08
+DOMAIN-SUFFIX,ft07.com
+
+# easytier服务 / add by Telegram user: hvccff / Date: 2025-11-17 08:22:05
+DOMAIN-SUFFIX,easytier.top
+# bark默认服务器的域名 / add by Telegram user: Shu / Date: 2025-11-15 18:41:59
+DOMAIN-SUFFIX,day.app
+
+# 阴阳师工具 / add by Telegram user: 奶茶 / Date: 2025-11-30 15:30:08
+DOMAIN-SUFFIX,yyshub.top
+# CDN / add by Telegram user: 𝓚𝓮𝓵𝓿𝓲𝓷𝓟 / Date: 2025-12-17 11:16:00
+DOMAIN-SUFFIX,bunny.net
+# 视频网站 / add by Telegram user: 哈Lay / Date: 2026-01-07 19:18:30
+DOMAIN-SUFFIX,8kc.top
+# add by Telegram user: hlly / Date: 2026-01-06 22:51:31
+DOMAIN-SUFFIX,kcbd.top
+# 视频网站 / add by Telegram user: 哈Lay / Date: 2026-01-06 21:13:37
+DOMAIN-SUFFIX,theluyuan.com
+# add by Telegram user: IllIllIlIl / Date: 2026-01-05 08:54:12
+DOMAIN-SUFFIX,cmbc.run
+# 个人网站 / add by Telegram user: Awt / Date: 2026-01-03 00:58:13
+DOMAIN-SUFFIX,awstme.top
+# 北京公交地铁APP："亿通行" / add by Telegram user: zero / Date: 2026-01-02 23:03:30
+DOMAIN-SUFFIX,easytomessage.com
+# iOS旧版App服务 / add by Telegram user: 雪菜 / Date: 2025-12-27 11:39:43
+DOMAIN-SUFFIX,timbrd.com
+# aicoding / add by Telegram user: Makka / Date: 2025-12-27 10:11:32
+DOMAIN-SUFFIX,anyrouter.top
+# 社区 / add by Telegram user: 哈Lay / Date: 2025-12-29 12:54:22
+DOMAIN-SUFFIX,a0d.top
+# 微信小程序
+DOMAIN-SUFFIX,wxdw.top
+# add by Telegram user: 哈Lay / Date: 2026-01-14 18:11:07
+DOMAIN-SUFFIX,rayws.top
+# dnshe免费域名 / add by Telegram user: r / Date: 2026-01-14 17:48:56
+DOMAIN-SUFFIX,dnshe.com
+# 博客 / add by Telegram user: 哈Lay / Date: 2026-01-13 23:37:24
+DOMAIN-SUFFIX,lg3000.top
+# add by Telegram user: 嘿嘿 / Date: 2026-01-11 20:42:55
+DOMAIN-SUFFIX,scratch5.com
+# 播客 / add by Telegram user: Mairs / Date: 2026-01-22 17:49:33
+DOMAIN-SUFFIX,meiyitou.top
+# add by Telegram user: Mairs / Date: 2026-01-22 17:48:05
+DOMAIN-SUFFIX,misea.top
+# 先锋学霸 / add by Telegram user: Mairs / Date: 2026-01-22 17:46:58
+DOMAIN-SUFFIX,axuex.top
+
+# =======================================
+# 以下是应当直连的冷门国内域名规则
+# =======================================
+
+# ---------------------------------------
+# 以下是准备向 GeoSite 上游仓库提交 PR 的国内冷门域名，收录后会注释对应内容
+# ---------------------------------------
+# 以下域名待提交 PR
+# 长城汽车 / add by Telegram user: Zuo / Date: 2026-02-11 08:47:14
+DOMAIN-SUFFIX,gwmapp-w.com
+# 独家御膳房小程序 / add by Telegram user: 闻西 / Date: 2026-02-10 19:17:02
+DOMAIN-SUFFIX,xiaolikj.online
+# add by Telegram user: 嘿嘿 / Date: 2026-02-10 18:40:48
+DOMAIN-SUFFIX,beautifulcarrot.com
+# NKXingXh's的资料网站 / add by Telegram user: abcd / Date: 2026-02-10 01:33:20
+DOMAIN-SUFFIX,nkxingxh.top
+# 方正手迹 / add by Telegram user: 嘿嘿 / Date: 2026-02-09 22:01:38
+DOMAIN-SUFFIX,fzshouji.com
+# add by Telegram user: y / Date: 2026-02-09 19:31:31
+DOMAIN-SUFFIX,tdrgame.top
+# 云端笔记 / add by Telegram user: y / Date: 2026-02-09 19:31:06
+DOMAIN-SUFFIX,piedaochuan.top
+# add by Telegram user: Aethersailor / Date: 2026-02-07 13:37:00
+DOMAIN-SUFFIX,xingaochengtai.com
+# 敲敲云 / add by Telegram user: Mairs / Date: 2026-02-07 11:05:23
+DOMAIN-SUFFIX,qiaoqiaoyun.com
+# 在线LaTeX公式编辑器 / add by Telegram user: 真怪誕呀 / Date: 2026-02-07 01:01:20
+DOMAIN-SUFFIX,latexlive.com
+# 游戏PP / add by Telegram user: 雪菜 / Date: 2026-02-06 13:45:01
+DOMAIN-SUFFIX,gamepp.com
+# add by Telegram user: Aethersailor / Date: 2026-02-04 16:59:37
+DOMAIN-SUFFIX,giomeru.com
+# Astral个人博客 / add by Telegram user: Astral / Date: 2026-02-04 11:15:26
+DOMAIN-SUFFIX,asgardion.space
+# 港话通 / add by Telegram user: 真怪誕呀 / Date: 2026-02-03 19:00:10
+DOMAIN-SUFFIX,hkchat.app
+# 舒达app域名 / add by Telegram user: 闻西 / Date: 2026-02-02 15:01:12
+DOMAIN-SUFFIX,aidream.website
+# 乖淘app / add by Telegram user: 闻西 / Date: 2026-02-02 14:58:30
+DOMAIN-SUFFIX,guaitao.cc
+# 听书网站 / add by Telegram user: 哈Lay / Date: 2026-02-01 22:51:50
+DOMAIN-SUFFIX,365ting.com
+# add by Telegram user: Aethersailor / Date: 2026-02-01 21:20:36
+DOMAIN-SUFFIX,0044696.com
+# add by Telegram user: Aethersailor / Date: 2026-02-01 19:16:40
+DOMAIN-SUFFIX,pkghund.com
+# add by Telegram user: Aethersailor / Date: 2026-02-01 15:40:42
+DOMAIN-SUFFIX,htkgsx.com
+# add by Telegram user: X_X233 / Date: 2026-02-01 15:36:09
+DOMAIN-SUFFIX,hangnakeji.com
+# 自用 / add by Telegram user: along / Date: 2026-01-31 19:38:38
+DOMAIN-SUFFIX,alonginwind.top
+# 自用 / add by Telegram user: along / Date: 2026-01-31 19:37:29
+DOMAIN-SUFFIX,alonginwind.eu.org
+# 云平台 / add by Telegram user: along / Date: 2026-01-31 19:27:59
+DOMAIN-SUFFIX,shuangqingtech.com
+# add by Telegram user: Evan / Date: 2026-01-31 13:18:47
+DOMAIN-SUFFIX,nanhuabx.com
+# 共享账号出售平台 / add by Telegram user: abcd / Date: 2026-01-31 00:13:30
+DOMAIN-SUFFIX,hezuvip.com
+# 主机游戏模拟器软件服务器 / add by Telegram user: abcd / Date: 2026-01-30 23:18:06
+DOMAIN-SUFFIX,ponyemu.com
+# 高校教务系统 / add by Telegram user: abcd / Date: 2026-01-30 23:13:44
+DOMAIN-SUFFIX,xiqueer.com
+# add by Telegram user: Iceberg / Date: 2026-01-30 01:56:19
+DOMAIN-SUFFIX,jieyoutsg.com
+# add by Telegram user: Iceberg / Date: 2026-01-30 01:55:40
+DOMAIN-SUFFIX,medtechshare.com
+# add by Telegram user: Iceberg / Date: 2026-01-30 01:54:58
+DOMAIN-SUFFIX,dayilive.com
+# nat 类型检测 / add by Telegram user: 一只 / Date: 2026-01-26 21:02:18
+DOMAIN-SUFFIX,natchecker.com
+# add by Telegram user: 蛋中央 / Date: 2026-01-26 20:34:21
+DOMAIN-SUFFIX,mchuiji.com
+# add by Telegram user: 蛋中央 / Date: 2026-01-26 20:08:51
+DOMAIN-SUFFIX,mcxyzt.cc
+# ios 固件下载
+DOMAIN-SUFFIX,iosgujian.com
+# 手游无期迷途官网
+DOMAIN-SUFFIX,aisnogames.com
+
+# 2026.1.25 分类整理完毕
+
+
+# ====== 国内测速直连 ======
+DOMAIN-SUFFIX,speedtest.net
+DOMAIN-SUFFIX,ookla.com
+DOMAIN-SUFFIX,fast.com
+
+DOMAIN-SUFFIX,huaban.com
+DOMAIN-SUFFIX,huaban-speedtest.com
+
+DOMAIN-SUFFIX,10010.com
+DOMAIN-SUFFIX,10000.cn
+DOMAIN-SUFFIX,189.cn
+
+DOMAIN-SUFFIX,ctyun.cn
+DOMAIN-SUFFIX,telecomtest.cn
+DOMAIN-SUFFIX,unicomtest.cn
+
+# 中国测速常用网段直连
+IP-CIDR,117.78.0.0/16,no-resolve
+IP-CIDR,183.194.0.0/16,no-resolve
+IP-CIDR,221.179.0.0/16,no-resolve
+IP-CIDR,202.97.0.0/16,no-resolve
+IP-CIDR,58.60.0.0/16,no-resolve
+
+# 其他分类
+DOMAIN-SUFFIX,cn.bing.com
+DOMAIN-SUFFIX,vipmro.com
+DOMAIN-SUFFIX,0so.com
+DOMAIN-SUFFIX,tilldream.com
+DOMAIN-SUFFIX,mall.abb.com.cn
+DOMAIN-SUFFIX,qcc.com
+DOMAIN-SUFFIX,yoyik.com
+DOMAIN-SUFFIX,directindustry.com
