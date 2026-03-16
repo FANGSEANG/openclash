@@ -1,0 +1,15 @@
+# Tailscale DERP Servers
+
+# 进程
+PROCESS-NAME,tailscaled
+
+# Domain
+DOMAIN-REGEX,^derp\d*-?.*\.tailscale\.com$
+DOMAIN-REGEX,^derp.*tailscale\.com
+
+# DST-PORT端口
+DST-PORT,41641
+
+# SRC-PORT端口
+SRC-PORT,41641
+
